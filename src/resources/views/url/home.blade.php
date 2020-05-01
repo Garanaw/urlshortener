@@ -11,7 +11,7 @@
     
     <div class="row">
         <div class="col">
-            <h2>{{ __('url.recent') }}</h2>
+            <h1>{{ __('url.recent') }}</h1>
             
             @foreach($latest as $urlElement)
             <x-url-element :url="$urlElement"></x-url-element>
