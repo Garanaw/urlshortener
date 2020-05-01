@@ -16,4 +16,4 @@ Auth::routes();
 
 $router = app(Router::class);
 
-$router->redirect('/', 'url/home');
+$router->redirect('/', '/home');
