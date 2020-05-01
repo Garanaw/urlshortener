@@ -16,3 +16,5 @@ yarn-error.log
 .env
 /src/.env
 /src/storage/debugbar/*
+/src/.editorconfig
+mysql/
